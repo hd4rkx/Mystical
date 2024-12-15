@@ -1883,7 +1883,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jamkl
 local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/Linoria-Library-Mobile/refs/heads/main/Gui%20Lib%20%5BThemeManager%5D"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mc4121ban/Linoria-Library-Mobile/refs/heads/main/Gui%20Lib%20%5BSaveManager%5D"))()
 local Window = Library:CreateWindow({
-    Title = 'Mystical<font color="rgb(255,105,180)">.lua</font>',
+    Title = 'Mystical',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -1903,7 +1903,7 @@ Frame.Position = UDim2.new(1, -120, 0, 0)
 local TextButton = Instance.new("TextButton")
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 200)
-TextButton.BackgroundTransparency = 100
+TextButton.BackgroundTransparency = 1
 TextButton.Size = UDim2.new(1, 0, 1, 0)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "{}"
@@ -2020,7 +2020,7 @@ do
         Logo.Name = "Logo"
         Logo.Parent = Frame
         Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        Logo.BackgroundTransparency = 5.000
+        Logo.BackgroundTransparency = 1
         Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
         Logo.BorderSizePixel = 0
         Logo.Position = UDim2.new(0.326732665, 0, 0, 0)
@@ -2036,7 +2036,7 @@ do
         TextButton.Position = UDim2.new(0.0792079195, 0, 0.18571429, 0)
         TextButton.Size = UDim2.new(0, 80, 0, 44)
         TextButton.Font = Enum.Font.SourceSansSemibold
-        TextButton.Text = "Mystical"
+        TextButton.Text = "•"
         TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         TextButton.TextScaled = true
         TextButton.TextSize = 14.000
