@@ -67,7 +67,7 @@ HitChamsFolder.Name = "HitChamsFolder"
 HitChamsFolder.Parent = Workspace
 --
 -- // Crosshair Handler \\ --
-local Cursor = loadstring(game:HttpGet('https://pastebin.com/raw/D662tS1Q', true))() do
+local Cursor = loadstring(game:HttpGet('https://pastebin.com/raw/AqMiK82n', true))() do
     Cursor.enabled = false
     Cursor.color = MainColor
 end
